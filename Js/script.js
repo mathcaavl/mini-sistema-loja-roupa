@@ -48,11 +48,6 @@ const atualizarTela = () => {
 const gerarValorTotal = () => {
     produtoFinal.valorTotal = (produtoFinal.quantidade * 20)
 
-    // Se for acima de 100 produtos = Desconto de 5% 
-    // Se for acima de 500 produtos = Desconto de 10% 
-    // Se for acima de 1000 Produtos = desconto de 15%
-    // Se a cor da camisa for Preta, cobrar 2,50 a mais por cada unidade.
-
     if (produtoFinal.quantidade >= 1000) {
         produtoFinal.valorTotal *= 0.85;
     } else if (produtoFinal.quantidade >= 500) {

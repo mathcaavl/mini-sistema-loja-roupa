@@ -9,4 +9,6 @@
 ### O que esse projeto precisa fazer 🤔?
 #### Ele precisa renderizar na tela um novo objeto com os parametros escolhidos pelo Usuario, incluindo alterar a cor da camisa para a cor escolhida.
 
+#### É importante ressaltar que o sistema deve aplicar um desconto nas seguintes regras: A partir de 100 peças = 5% de Desconto. A partir de 500 peças = 10% de Desconto. A partir de 1000 peças = 15% de Desconto.
+
 #### mini-sistema-loja-de-roupa.netlify.app
