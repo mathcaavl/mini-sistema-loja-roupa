@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+}
+
+p {
+    margin: 0px;
+}
+
+.escolhas {
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    background: gainsboro;
+    height: 10em;
+}
+
+.informacao-produto {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 5em;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.photo-camisa {
+    width: 20em;
+}
+
+.photo {
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 30px;
+}
+
+.pedidos {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    background: gainsboro;
+}
+
+.divCarrinho {
+    margin-top: 10px;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 20px;
+}

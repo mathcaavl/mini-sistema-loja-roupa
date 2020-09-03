@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <title>Mini Loja de Roupas</title>
+</head>
+<body>
+    <header class="escolhas">
+        <div class="qntd-camisas">
+            <p>Quantidades</p>
+            <input type="number" class="inputQntd">
+        </div>
+        <div class="cores-camisas">
+            <p>Cores</p>
+            <button type="button" class="btn btn-light" value="cor">Branca</button>
+            <button type="button" class="btn btn-dark" value="cor">Preta</button>
+        </div>
+        <div class="tamanhos-camisas">
+            <p>Tamanhos</p>
+            <button type="button" class="btn btn-light" value="tamanho">P</button>
+            <button type="button" class="btn btn-dark" value="tamanho">M</button>
+            <button type="button" class="btn btn-info" value="tamanho">G</button>
+        </div>
+        <div class="tipos-gola">
+            <p>Tipo Gola</p>
+            <button type="button" class="btn btn-light" value="gola">Gola V</button>
+            <button type="button" class="btn btn-dark" value="gola">Gola Normal</button>
+        </div>
+        <div class="atualizar">
+            <p>Atualizar Pedido</p>
+            <button type="button" class="btn-atualizar btn btn-info">Atualizar</button>
+        </div>
+    </header>
+    <main class="informacao-produto">
+        <div class="photo">
+            <img src="image/camisa-branca.jpg" alt="camisa-image" class="photo-camisa">
+        </div>
+        <div class="informacoes">
+            <p class="quantidade p-3 mb-2 bg-info text-white">Quantidade: </p>
+            <p class="cor-camisa p-3 mb-2 bg-info text-white">Cor Camisa: </p>
+            <p class="gola-camisa p-3 mb-2 bg-info text-white">Tipo de Gola: </p>
+            <p class="tamanho-camisa p-3 mb-2 bg-info text-white">Tamanho Camisa:</p>
+            <p class="valor-total p-3 mb-2 bg-info text-white">Valor Total:</p>
+        </div>
+    </main>
+    <section class="pedidos">
+        
+    </section>
+
+    <script type="text/Javascript" src="Js/script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+</html>
